@@ -25,6 +25,10 @@ html {
   height: 100vh;
   background: linear-gradient(180deg, white, #d8d8d8);
 }
+
+body {
+  margin: 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -41,6 +45,7 @@ img {
 
 .animation-img {
   border-radius: 10%;
+  max-height: 250px;
 }
 
 .main-wrapper {
